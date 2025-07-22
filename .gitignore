@@ -4,9 +4,8 @@ __pycache__/
 *$py.class
 
 # 데이터 파일
-data/
-*.csv
-*.xlsx
+data/*.csv
+data/*.xlsx
 
 # C 확장
 *.so
