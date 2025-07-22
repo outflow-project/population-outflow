@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# 데이터 파일
+data/
+
 # C 확장
 *.so
 
