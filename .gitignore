@@ -1,0 +1,43 @@
+# 파이썬 바이트코드, 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장
+*.so
+
+# 패키징/배포
+dist/
+build/
+*.egg-info/
+*.egg
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# 테스트/커버리지
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter 노트북 체크포인트
+.ipynb_checkpoints
+
+# 에디터/IDE 설정
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS별 불필요 파일
+.DS_Store
+Thumbs.db
