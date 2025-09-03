@@ -15,13 +15,15 @@
 - GitHub (협업 관리)
 - 공공데이터 포털 등에서 수집한 데이터
 
-## 폴더 구조(예시)
+## 폴더 구조
 ```markdown
 population-outflow/
 ├── data/ # 원본 및 처리된 데이터 저장
 │ ├── raw/
 │ └── processed/
-├── notebooks/ # Jupyter 노트북 분석 파일
+├── notebooks/ # Jupyter 노트북 분석 저장 폴터
+│ ├── 01_data-cleansing/ # 데이터 정제 노트북 저장 폴더
+│ └── 99_experiments/ # 임시/실험용 노트북 저장 폴더
 ├── src/ # Python 스크립트 (전처리, 분석, 시각화)
 │ ├── preprocessing/
 │ ├── analysis/
@@ -29,8 +31,7 @@ population-outflow/
 ├── results/ # 분석 결과물 및 지도
 ├── docs/ # 발표 자료, 회의록 등 문서
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ##  팀원
@@ -43,7 +44,6 @@ population-outflow/
 
 ##  데이터 출처
 - [국가통계포털](https://kosis.kr/index/index.do)
-- 예정
 
 ## 브랜치 전략 요약
 - main: 최종 결과물 저장용
