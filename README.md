@@ -40,7 +40,6 @@ population-outflow/
 | 오수성     | 디스코드 관리 |
 | 강호현     | 코드 관리 |
 | 조재홍     | 리서치 |
-| 이대현     | 서포터, 일정 관리 |
 
 ##  데이터 출처
 - [국가통계포털](https://kosis.kr/index/index.do)
@@ -48,5 +47,16 @@ population-outflow/
 
 ## 브랜치 전략 요약
 - main: 최종 결과물 저장용
+- dev: 개발 통합 브랜치
 - analysis : 기능 통합용 분석 브랜치
 - feature/*: 각 작업 단위 브랜치 (예: feature/EDA, feature/데이터수집)
+
+## 커밋 전략 요약
+| 커밋 타입 | 설명 | 예시 |
+|-----------|------|------|
+| WIP(work in process) | 아직 완성되지 않은 진행 중인 작업 | git commit -m "WIP: 로그인 API 개발 중" |
+| feat | 새로운 기능 추가 | git commit -m "feat: 회원가입 기능 구현" |
+| fix | 버그 수정 | git commit -m "fix: 로그인 시 비밀번호 검증 오류 해결" |
+| refactor | 코드 리팩토링 (기능 변화 없이 구조 개선) | git commit -m "refactor: 불필요한 변수 정리" |
+| chore | 코드 실행과 직접 관련 없는 변경 | git commit -m "chore: ESLint 설정 변경" |
+| docs | 문서 수정 | git commit -m "docs: README에 프로젝트 설명 추가" |

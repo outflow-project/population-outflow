@@ -1,7 +1,7 @@
 ---
-name: "✨ Feature"
+name: "[FEAT]"
 about: 새로운 기능 추가를 요청할 때 사용하세요
-title: "[FEAT]"
+title: ''
 labels: enhancement
 assignees: ''
 
