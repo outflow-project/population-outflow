@@ -19,8 +19,9 @@
 ```markdown
 population-outflow/
 ├── data/ # 원본 및 처리된 데이터 저장
-│ ├── raw/
-│ └── processed/
+│ ├── 00_raw/ # 원본 데이터
+│ ├── 01-1_data-cleansing/ # 기초 데이터 정제 완료된 데이터
+│ └── 01-2_data-cleansing/ # 1차 데이터 정제 완료된 데이터
 ├── notebooks/ # Jupyter 노트북 분석 저장 폴터
 │ ├── 01_data-cleansing/ # 데이터 정제 노트북 저장 폴더
 │ └── 99_experiments/ # 임시/실험용 노트북 저장 폴더
